@@ -1,0 +1,10 @@
+services:
+  nginx:
+    image: nards/docker_404
+    ports:
+      - 80:80
+    # Use environment variable or logo.png for branding
+    #environment:
+    #  - LOGO_URL=<URL_LOGO>
+    #volumes:
+    #  - /path/to/local/logo.png:/usr/share/nginx/html/logo.png
